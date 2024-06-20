@@ -6,7 +6,7 @@
 
 ## Demo
 
-<a href="https://risui-blet.netlify.app//">Mini-paint</a>
+<a href="https://maxpaynecoool.github.io/paint">Mini-paint</a>
 
 ## How to run the app
 

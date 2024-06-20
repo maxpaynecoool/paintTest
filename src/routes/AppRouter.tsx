@@ -6,6 +6,8 @@ function AppRouter() {
   const user = useTypedSelector((state) => state.user.user);
   const isUser = user ? publicRouter : privateRouter;
 
+  console.log(user)
+
   return <RouterProvider router={isUser} />;
 }
 
