@@ -6,7 +6,7 @@
 
 ## Demo
 
-<a href="https://maxpaynecoool.github.io/paint">Mini-paint</a>
+<a href="https://maxpaynecoool.github.io/paintTest">Mini-paint</a>
 
 ## How to run the app
 
