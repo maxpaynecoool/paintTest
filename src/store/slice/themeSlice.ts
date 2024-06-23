@@ -5,7 +5,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const persistedTheme = localStorage.getItem(LOCAL_STORAGE_KEYS.theme);
 
 const initialState: IDarkTheme = {
-  darkTheme: persistedTheme && JSON.parse(persistedTheme),
+  darkTheme: persistedTheme && JSON.stringify(persistedTheme),
 };
 export const themeSlice = createSlice({
   name: LOCAL_STORAGE_KEYS.theme,

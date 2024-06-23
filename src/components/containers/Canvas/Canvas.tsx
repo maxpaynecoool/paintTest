@@ -76,6 +76,7 @@ export const Canvas = () => {
     link.href = image;
     link.download = 'image.png';
     link.click();
+    console.log(image)
   };
   const writeToDatabase = async () => {
     const ctx = contextRef.current;
